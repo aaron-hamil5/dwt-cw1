@@ -18,7 +18,7 @@ function Ad(props) {
             <Section title="d. Draw sketch to show location of accident and location of any witnesses at the time of
                 the accident" content={<Aid/>}/>
             <Section title="e. Describe any action taken following this incident" content={<Aie/>}/>
-            <Section title="f. Signatures"/>
+            <Section title="f. Signatures" content={<Aif />}/>
             <p className="text-label-sm p-sm m-sm">Completed Accident Report Forms must be uploaded and printed to
                 stored in the Accident File</p>
         </article>

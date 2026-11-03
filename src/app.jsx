@@ -4,8 +4,9 @@ import Ai from "./components/ai/Ai.jsx";
 function App() {
     return(
         <article>
-            <Ai />
             <Ad />
+            <hr />
+            <Ai />
         </article>
     );
 }
