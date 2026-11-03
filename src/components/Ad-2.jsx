@@ -45,8 +45,7 @@ function Ad1(props) {
                             className="text-box max-width"
                             value=""
                             onChange={ () => {} }>
-                            <option value="cm">Crew Member</option>
-                            <option value="ct">Crew Trainer</option>
+                            <option value="cm">Team Member</option>
                             <option value="fm">Floor Manager</option>
                             <option value="sm">Shift Manager</option>
                             <option value="am">Assistant Manager</option>
