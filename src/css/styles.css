@@ -63,6 +63,12 @@ header {
         color: var(--md-sys-color-on-error);
         cursor: pointer;
     }
+
+    &.secondary{
+        background: linear-gradient(var(--md-sys-color-secondary-container), var(--md-sys-color-secondary-container)) padding-box,
+        linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.05)) border-box;
+
+    }
 }
 
 .navigation {
