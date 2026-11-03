@@ -13,7 +13,7 @@ function Ad(props) {
             <p className="text-body-md">The Shift Leader should complete the following information at a suitable time
                 following the incident.</p>
             <Section title="a. Who completed the travel path immediately before the incident?" content={<Aia/>}/>
-            <Section title="b. List details of any witnesses to the incident (state none if there are no witnesses)" />
+            <Section title="b. List details of any witnesses to the incident (state none if there are no witnesses)"  content={<Aib/>}/>
             <Section title="c. Were any witness statements taken? (Keep any statements in the Health & Safety File)" />
             <Section title="d. Draw sketch to show location of accident and location of any witnesses at the time of
 the accident" />
