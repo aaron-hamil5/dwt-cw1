@@ -1,6 +1,7 @@
 function Ad1(props) {
     return(
         <form>
+            <p className="text-label-md p-hor-sm">How did the accident happen? (include the cause if possible)</p>
             <div className="input max-width p-hor-lg">
                 <textarea
                     id="what-happened-input"

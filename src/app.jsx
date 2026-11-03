@@ -1,22 +1,9 @@
-import Section from "./components/Section.jsx";
-import Ad1 from "./components/Ad-1.jsx";
-import Ad2 from "./components/Ad-2.jsx";
-import Ad3 from "./components/Ad-3.jsx";
-import Ad4 from "./components/Ad-4.jsx";
-import Ad5 from "./components/Ad-5.jsx";
+import Ad from "./components/ad/Ad.jsx";
+import Ai from "./components/ai/Ai.jsx";
 
 function App() {
     return(
-        <article className="p-hor-lg">
-            <h1 className="text-display-lg font-thin text-primary">Accident Report</h1>
-            <p className="text-body-md">Complete all boxes as fully and accurately as possible.</p>
-            <Section title="1. About the person who had the accident" content={<Ad1/>}/>
-            <Section title="2. About the person completing this report (if not the same as above)" content={<Ad2 />}/>
-            <Section title="3. About the Accident – when and where?" content={<Ad3 />}/>
-            <Section title="4. About the Accident – what happened?" content={<Ad4 />}/>
-            <Section title="5. About the Accident – injuries" content={<Ad5 />}/>
-            <Section title="6. Signatures"/>
-        </article>
+        <Ad />
     );
 }
 
