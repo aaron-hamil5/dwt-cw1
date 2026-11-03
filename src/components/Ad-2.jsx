@@ -38,23 +38,26 @@ function Ad1(props) {
                 </div>
             </div>
                 <div className="form-row">
-                    <div className="input max-width p-hor-lg">
-                        <input
-                            type="text"
+                    <div className="input max-width p-hor-sm">
+                        <select
                             id="position-input"
+                            name="position-input"
                             className="text-box max-width"
-                            name="text"
-                            autoComplete="on"
-                            placeholder=" "
                             value=""
-                            onChange={ () => {} }
-                        />
-                            <h2 className="text-box-title">
-                                <label htmlFor="position-input">
-                                    Position
-                                </label>
-                            </h2>
-                        </div>
+                            onChange={ () => {} }>
+                            <option value="cm">Crew Member</option>
+                            <option value="ct">Crew Trainer</option>
+                            <option value="fm">Floor Manager</option>
+                            <option value="sm">Shift Manager</option>
+                            <option value="am">Assistant Manager</option>
+                            <option value="bm">Business Manager</option>
+                        </select>
+                        <h2 className="text-box-title">
+                            <label htmlFor="position-input">
+                                Position
+                            </label>
+                        </h2>
+                    </div>
                     <div className="input max-width p-hor-lg">
                         <input
                             type="date"
