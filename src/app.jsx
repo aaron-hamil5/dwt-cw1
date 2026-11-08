@@ -3,7 +3,11 @@ import Ai from "./components/ai/Ai.jsx";
 
 function App() {
     return(
-        <Ad />
+        <article>
+            <Ad />
+            <hr />
+            <Ai />
+        </article>
     );
 }
 
