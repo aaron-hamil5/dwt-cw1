@@ -226,6 +226,15 @@ ul{
     linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.05)) border-box;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+.card_array{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-grow: 1;
+    flex-basis: 200px;
+}
 
 /* --- Inline text --- */
 .inline-paragraph { display: inline-block; }
@@ -319,13 +328,25 @@ ul{
 .p-hor-lg { padding: 0 14px; }
 
 /* --- Padding Vertical Utilities --- */
-.p-vet-0 { padding: 0 0; }
-.p-vet-sm { padding: 10px 0; }
-.p-vet-md { padding: 12px 0; }
-.p-vet-lg { padding: 14px 0; }
+.p-ver-0 { padding: 0 0; }
+.p-ver-sm { padding: 10px 0; }
+.p-ver-md { padding: 12px 0; }
+.p-ver-lg { padding: 14px 0; }
 
 /* --- Margin Utilities --- */
 .m-0 { margin: 0; }
 .m-sm { margin: 10px; }
 .m-md { margin: 12px; }
 .m-lg { margin: 14px; }
+
+/* --- Padding Horizontal Utilities --- */
+.m-hor-0 { margin: 0 0; }
+.m-hor-sm { margin: 0 10px; }
+.m-hor-md { margin: 0 12px; }
+.m-hor-lg { margin: 0 14px; }
+
+/* --- Padding Vertical Utilities --- */
+.m-ver-0 { margin: 0 0; }
+.m-ver-sm { margin: 10px 0; }
+.m-ver-md { margin: 12px 0; }
+.m-ver-lg { margin: 14px 0; }
