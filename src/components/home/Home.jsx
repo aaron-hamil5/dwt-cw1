@@ -14,11 +14,11 @@ function home(props) {
                 they are positioned comfortably and at ease. Refrain from asking intrusive questions and instead,
                 provide a calm and supportive environment before gathering data.</p>
             <button onClick={props.onClickCreate} className="bubble accept text-label-md">Create Report</button>
-            <h2 className="text-display-sm font-thin text-secondary m-sm">View Accident</h2>
-            <p className="text-body-md m-sm">In the event of an accident occurring during a shift, it is important that a
-                comprehensive report be written. Prioritise the well-being of the injured individual first, ensuring
-                they are positioned comfortably and at ease. Refrain from asking intrusive questions and instead,
-                provide a calm and supportive environment before gathering data.</p>
+            <h2 className="text-display-sm font-thin text-secondary m-sm">View Accidents</h2>
+            <p className="text-body-md m-sm">Access a comprehensive log of all incidents recorded across store locations.
+                Reports may be deleted only when it is verified as entirely safe to do so; if you are uncertain, retain
+                the record. Please note that once a report has been signed, the underlying data cannot be modified to
+                prevent alteration and maintain data integrity.</p>
             <section className="card_array">
                 <Card
                     name="Doh, John"
